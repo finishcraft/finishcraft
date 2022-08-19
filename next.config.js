@@ -10,3 +10,5 @@ const nextConfig   = {
 };
 
 export default   nextConfig;
+
+// https://www.bravolt.com/post/deploying-next-js-to-github-pages
