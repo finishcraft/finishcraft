@@ -1,7 +1,7 @@
 /**
  * @type {import('next').NextConfig}
  */
-const nextConfig   = {
+const nextConfig = {
     images: {
         loader: 'akamai',
         path: '',
@@ -9,6 +9,6 @@ const nextConfig   = {
     assetPrefix: './',
 };
 
-export default   nextConfig;
+module.exports = nextConfig
 
 // https://www.bravolt.com/post/deploying-next-js-to-github-pages
